@@ -1,0 +1,38 @@
+return {
+	-- behaviour type
+	["BehaviorType"] = "ChaseMelee",
+	
+	-- stats
+	["MaxHealth"] = 700,
+	["MovementSpeed"] = 18,
+	
+	["Attack"] = {
+		Size = 5,
+		Range = 6,
+		Damage = 30,
+		AttackSpeed = 1.25,
+		TelegraphTime = 0.8
+	},
+	
+	-- sounds
+	["Sounds"] = {
+		Death = "MonsterDeath2",
+		Attack = "MonsterAttackBig",
+		Spawn = "MonsterGrunt1",
+		Hurt = "MonsterHurt2",
+	},
+	
+	-- animations
+	["_Animations"] = {
+		Attack = "BerzerkerSweep"
+	},
+	
+	-- difficulty
+	["Difficulty"] = 25,
+	
+	-- special properties
+	["AttackType"] = "Arc",
+	
+	-- preserve model reference
+	model = script["Elite Orc Berzerker"],
+}
